@@ -2,8 +2,30 @@
 -------
 Github
 new reposity
+nombre del repositorio:
 repositoryproyect
 url: https://github.com/smilenacruz/repositoryproyect.git
 
 Gitbash
+ls-> para revisar proyectos
+git init
+//agregar ruta
+git remote add origin ruta
+//para revisar las rutas agregadas
+git remote -v
+//examinar el estado de los archivos y los no subido
+git status
+//control de cambios
+git add nombredelarchivo(solo un archivo en especial)
+git add . (agregar todos los archivos modificados)
+
+// preparar el archivo
+git commit -m "primer push"
+//enviar el archivo a la ruta especificada
+git push origin master
+//agregar credenciales del usuario
+git config --user.name UserName
+git config --user.email UserEmail
+
+
 
